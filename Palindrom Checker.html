@@ -1,0 +1,39 @@
+<!-- Palindrome Checker by Ozzy Jamest-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set the character encoding and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Set the page title -->
+    <title>Palindrome Checker</title>
+    
+    <!-- Link to Google Fonts for a custom font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="palindrome stlyes.css">
+    <script src= "palindrom scripts.js"></script>
+</head>
+<body>
+    <!-- Main container for the palindrome checker -->
+    <div class="container">
+        <h1>Palindrome Checker</h1>
+        <!-- Input field for the user to enter a word or phrase -->
+        <input type="text" id="inputString" placeholder="Enter a word or phrase">
+        <!-- Button to check if the input is a palindrome -->
+        <button onclick="checkPalindrome()">Check</button>
+        <!-- Button to clear the input field -->
+        <button onclick="clearInput()">Clear</button>
+        <!-- Paragraph to display the result -->
+        <p id="result"></p>
+        <!-- Image element for palindrome visualization -->
+        <img id="palindromeImage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Palindrome_example.svg/640px-Palindrome_example.svg.png" alt="Palindrome example" style="display: none;">
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
